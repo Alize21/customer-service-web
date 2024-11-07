@@ -178,3 +178,68 @@ body {
   font-size: 20px;
   color: white;
 }
+
+/* tour */
+.tour-title-container {
+  padding: 180px 0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.tour-title {
+  font-size: 38px;
+  flex: 0.7;
+}
+.tour-deskription {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.tour-thumb {
+  height: 650px;
+  background-image: url(img/tour-thumb.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.tour-overlay {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(3, 3, 3, 0.5) 0%, rgba(238, 238, 238, 0.5) 100%);
+  display: flex;
+  align-items: center;
+}
+
+.tour-window {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 35%;
+  height: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+}
+
+.tour-window-img {
+  width: 180px;
+  height: 180px;
+}
+.tour-window-img img {
+  width: 100%;
+  height: 100%;
+}
+.tour-window h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.tour-window p {
+  font-weight: 400;
+}
+.tour-button {
+  width: 180px;
+}
