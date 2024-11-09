@@ -52,7 +52,6 @@ body {
 /* hero */
 .container-hero {
   margin: auto;
-  /* width: 100%; */
   height: 570px;
   display: flex;
   justify-content: space-between;
@@ -324,6 +323,47 @@ body {
   font-weight: 500;
   text-decoration: none;
   border-bottom: 2px solid black;
+  color: black;
+}
+/* animation */
+
+/* support */
+.support-container {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.support-thumb {
+  width: 50%;
+  height: 500px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.support-thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+.support-deskription {
+  margin-left: auto;
+  width: 40%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.support-deskription h1 {
+  font-size: 58px;
+}
+/* animation */
+.support-button {
+  background-color: white;
+  border: 1px solid black;
+}
+.support-button a {
   color: black;
 }
 /* animation */
